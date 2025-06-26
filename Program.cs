@@ -1,12 +1,6 @@
 ﻿//Annette Hawks
 //Due 6/25/2025
 //lab-4-madlibs-1-SpringHawks
-
-//Mad Libs: Vacation 
-
-//Annette Hawks
-//Due 6/25/2025
-//lab-4-madlibs-1-SpringHawks
 // 
 //Mad Libs: Vacation 
 
@@ -31,3 +25,12 @@
 //parenthesis and add that word to the 'newStory' along with a space
 //5. display the new story- Print it out when you're done story can you make it print "frog."
 //with the period when it prints out the story at the end? (+5 extra credit)
+
+string welcome = "Welcome to a short game of madlibs. \n" +
+                 " I will ask you for a series of words and put them into a story for you.\n" +
+                 " They could be a noun, adjective, or verb.\n" +
+                 " Verb: actions or state of being. ie: run or jump.\n" +
+                 " Adjective: a word that describes a noun. ie blue, tall, short, nice.\n" +
+                 " Noun: person, place, or thing. ie: Paul, New York, ball.\n" + "";
+
+Console.WriteLine(welcome);
